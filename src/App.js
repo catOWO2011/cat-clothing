@@ -4,8 +4,7 @@ import Homepage from './pages/homepage/homepage.component';
 
 import './App.css';
 
-const HatsPage = (props) => {
-  console.log(props);
+const HatsPage = () => {
     return (<div>
       <h1>HATS PAGE</h1>
     </div>);
