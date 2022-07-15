@@ -1,11 +1,10 @@
 import React from "react";
-import { useLocation, useMatch, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import './menu-item.styles.scss';
 
 const MenuItem = ({ title, imageUrl, size, linkUrl }) => {
   let navigate = useNavigate();
-  const location = useLocation();
 
   return (
     <div 
